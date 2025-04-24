@@ -2,7 +2,9 @@ rencana content
  *es6
  * framework content
 fundamental data sturctur
+view
 php 
 javscrpit
 html
+laravel
 css
