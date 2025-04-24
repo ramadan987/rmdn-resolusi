@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar html ke 28</title>
+
+    <p>kode semantic/bungkusan tag yang mmemiliki nilai 
+        tag artcle = untuk konten artikel
+        tag aside = untuk bagian samping konten misal sidebar
+        tag figure = untuk konten ilustrasi,diagram,foto,dll
+        tag figurecaption = untuk keterangan tag fiture
+        tag footer = untuk bagian footer dokumen
+        tag header = untuk bagian header dokumen
+        tag main = untuk konten utama dokumen
+        tag mark = untuk bagan yang di tandai atau highlight
+        tag nav = untuk bgian navigasi link 
+        tag select = untuk section d dokumen
+        tag details = untuk bagian yang lebih detail yang bisa di lihat oleh si pengguna
+        tag summary = untuk heading atau tag details
+        tag time = untuk konten waktu/tanggal
+    </p>
+    <p>kita akan memakai contoh layout supaya lebih menarik</p>
+
+    <style>
+        header {
+            background-color: rgb(0, 179, 255);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(8, 236, 183);
+        }
+
+        article {
+            padding: 20px;
+            width: 100%;
+            background-color: rgb(3, 39, 70);
+        }
+
+        footer {
+
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color: brown;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            overflow: none;
+        }
+
+        nav li{
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>contoh penggunaan</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="">beranda</a></li>
+            <li><a href="">artikel</a></li>
+            <li><a href="">kontak kami</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <h1>belajar html</h1>
+            <p>isi belajar html</p>
+        </article>
+        <article>
+            <h1>belajar css</h1>
+            <p>isi belajar css</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>hallo gays <time datetime="2025">2025</time></p>
+    </footer>
+</body>
+</html>

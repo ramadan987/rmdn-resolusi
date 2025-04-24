@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar table html ke 27</title>
+    <p>TABLE TAG <br>
+    1. **`table`**: Membungkus seluruh elemen tabel.
+    2. **`caption`**: Menambahkan deskripsi atau judul untuk tabel (opsional).
+    3. **`thead>`**: Grup untuk baris header, biasanya mencakup elemen `th`.
+    4. **`tbody`**: Bagian utama tabel, berisi isi tabel dengan elemen `td`.
+    5. **`tfoot`**: Grup untuk baris footer di bagian bawah tabel.
+    6. **`tr`**: Digunakan untuk membuat baris dalam tabel.
+     7. **`th`**: Sel header tabel, biasanya digunakan di dalam `thead`.
+     8. **`td`**: Sel isi tabel, digunakan di dalam `tbody` atau `tfoot`.
+     </p>
+
+     <p>colgroup untuk memberikan style/warna pada setiap kolom
+        jika ingin menggunakan style pada satu kolom maka gunakkan
+        span=
+     </p>
+     
+     <p>colspan =  untuk menggabungkan beberapa kolom di baris yang sama
+        rowspan = menggabungkan beberpa kolom di baris yang berbeda
+     </p>
+</head>
+<body>
+    <h1>belajar table</h1>
+    <table style="border : 1px solid black;">
+        <colgroup>
+        <col span="2" style="background-color: aqua;">
+        <col style="background-color: rgb(255, 0, 0);"> 
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="2">Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>maulana</td>
+                <td>ramadhan</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>usup</td>
+                <td>nugraha</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td rowspan="2">total</td>
+                <td>total</td>
+                <td>170</td>
+            </tr>
+            <tr>
+                <td>rata rata</td>
+                <td>85</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
