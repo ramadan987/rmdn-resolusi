@@ -1,0 +1,7 @@
+rencana content
+ *es6
+ * framework content
+php 
+javscrpit
+html
+css
