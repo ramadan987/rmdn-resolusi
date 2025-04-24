@@ -1,6 +1,7 @@
 rencana content
  *es6
  * framework content
+fundamental data sturctur
 php 
 javscrpit
 html
